@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    int studentID=15;
+    int studentAge=23;
+    float studentFee=50.5;
+    char studentGrade='A';
+    printf("Student ID is %d. Student Age is %d. The student Fee is %f and Grade is %c.\n",studentID,studentAge,studentFee,studentGrade);
+    return 0;
+}
