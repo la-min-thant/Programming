@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "change_values": "cpp",
-        "calculate": "cpp"
+        "calculate": "cpp",
+        "decimal_precision": "cpp"
     }
 }

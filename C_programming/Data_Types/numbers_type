@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int myNum=1000;//for integers
+    float Num=55.6;//for float
+    double MyNum=99.85;//higher precesion than float
+    printf("%d\n",myNum);
+    printf("%f\n",Num);
+    printf("%lf\n",MyNum);
+    return 0;
+}

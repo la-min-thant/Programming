@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    float myFloatNum=3.5;
+    double myDoubleNum=19.99;
+    printf("%f and %lf.",myFloatNum, myDoubleNum);
+    //if you want to see float as you want
+    printf("%f\n",myFloatNum);
+    printf("%.1f\n",myFloatNum);
+    printf("%.2f\n",myFloatNum);
+    printf("%.4f\n",myFloatNum);
+    //also same in double
+    printf("%.0lf\n",myDoubleNum);
+    //if .0 it will show no float
+    return 0;
+}

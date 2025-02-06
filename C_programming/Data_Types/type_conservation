@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(){
+    int x=5;
+    int y=2;
+    int sum=5/2;
+    printf("%d\n", sum);
+    //try this 
+    float myfloat=9;
+    printf("%f\n", myfloat);//auto add .0000
+    //also this
+    int myInt=9.99;
+    printf("%d\n",myInt);//float will remove
+    float dev=5/2;
+    printf("%f\n", dev);//this wont show as 2.5
+    //if you want to show as 2.5
+    float min=(float)5/2;
+    printf("%.3f\n", min);//like this
+    //and alos like this
+    int num1=5;
+    int num2=2;
+    float dev1=(float)num1/num2;
+    printf("%.2f\n", dev1);
+    return 0;
+}
