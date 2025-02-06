@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    int num=25;
+    int myNum=27;
+    num=myNum;
+    printf("my num will change as num: %d\n",myNum);
+    //or if you want to copy 
+    int otherNum;
+    otherNum=num;
+    printf("othre Number is %d\n",otherNum);
+    return 0;
+}
