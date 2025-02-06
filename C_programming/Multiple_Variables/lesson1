@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    int x=5, y=13, z=7;
+    printf("the value of x is %d, y is %d and z is %d.\n", x, y, z);
+    printf("The sum of x,y and z is : %d\n",x+y+z);
+    return 0;
+}
