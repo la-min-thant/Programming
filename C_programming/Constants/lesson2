@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+    int x=5;
+    int y=3;
+    printf("%d\n",x>y);
+    //if it is ture, it will return 1, false 0;
+    printf("%d\n",x<y);
+    //others
+    printf("%d\n",x==y);
+    printf("%d\n",x!=y);
+    printf("%d\n",x>=y);
+    printf("%d\n",x<=y);
+    // other operators
+    printf("%d\n", x>3 && x<10);
+    printf("%d\n",x>3||x<4);
+    printf("%d\n",!(x>3 && x<10));
+    return 0;
+}

@@ -2,6 +2,7 @@
     "files.associations": {
         "change_values": "cpp",
         "calculate": "cpp",
-        "decimal_precision": "cpp"
+        "decimal_precision": "cpp",
+        "lesson2": "cpp"
     }
 }
